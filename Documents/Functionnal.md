@@ -13,7 +13,6 @@
   - [Functional Process Requirements](#functional-process-requirements)
 - [OPERATIONAL REQUIREMENTS](#operational-requirements)
   - [Security](#security)
-  - [Audit Trail](#audit-trail)
   - [Data Currency](#data-currency)
   - [Reliability](#reliability)
   - [Recoverability](#recoverability)
@@ -93,20 +92,19 @@ SignAll - Client - Franck Jeannin
 # FUNCTIONAL REQUIREMENTS
 
 ## Data Requirements
-Describe the data requirements by producing a logical data model, which consists of entity relationship diagrams, entity definitions, and attribute definitions.  This is called the application data model.  The data requirements describe the business data needed by the application system.  Data requirements do not describe the physical database.
+The system must be able to turn on or off the sign depending on the message received from the backend.
+The system must be able to send a message to the backend to tell if the sign is on or off.
+
+
 ## Functional Process Requirements
-Process requirements describe what the application must do.  Process requirements relate the entities and attributes from the data requirements to the users’ needs.
 
-State the functional process requirements in a manner that enables the reader to see broad concepts decomposed into layers of increasing detail.
+Both sides of Manufacturer and User ( Shop owner ) will have a user interface to control the sign. **( Out of our scope)**
 
-Process requirements may be expressed using data flow diagrams, text, or any technique that provides the following information about the processes performed by the application:
+But for testing, we will need to simulate the backend and the user interface.
+The user interface will be sumilatated by sending messages to the board without interface.( Console commands ) 
+<img src="./Images/diagram.png" alt="Data Requirements"/>
 
-Context
-Detailed view of the processes
-Data (attributes) input to and output from processes
-Logic used inside the processes to manipulate data
-Accesses to stored data
-Processes decomposed into finer levels of detail
+
 # OPERATIONAL REQUIREMENTS
 Operational requirements describe the non-business characteristics of an application.
 
@@ -114,24 +112,22 @@ State the requirements in this section.  Do not state how these requirements wil
 
 Distinguish preferences from requirements.  Requirements are based on business needs.  Preferences are not.  If, for example, the user expresses a desire for sub-second response but does not have a business-related reason for needing it, that desire is a preference.
 ## Security
-The security Section describes the need to control access to the data.  This includes controlling who may view and alter application data.
 
-State the consequences of the following breaches of security in the subject application:
 
-Erasure of contamination of application data
-Disclosure of Government secrets
-Disclosure of privileged information about individuals
+Beside the manufacturer and the Shop owner, nobody can access the sign.
+Here is a list of the security requirements:
 
-State the type(s) of security required.  Include the need for the following as appropriate:
 
-State if there is a need to control access to the facility housing the application.
+| Action | Manufacturer | Shop Owner |
+|----------|-------------| ------------|
+| Turn On/Off | X | X |
+| Adjust the brightness | X | X |
+| See Sign information | X | X |
+| Define Auto turn off Hours | X | X |
+| Access baterie informations | X |  |
+| Lock instructions | X |  |
+| Override instructions | X |  |
 
-State the need to control access by class of users. For example, “No user may access any part of this application who does not have at least a (specified) clearance.”
-State the need to control access by data attribute.  State, for example, if one group of users may view an attribute but may not update it while another type of user may update or view it.
-State the need to control access based on system function.  State for example, if there is a need to grant one type of user access to certain system functions but not to others. For example, “This function is available only to the system administrator.”
-State if there is a need for accreditation of the security measures adopted for this application. For example, C2 protection must be certified by an independent authorized organization.
-## Audit Trail
-List the activities that will be recorded in the application’s audit trail.  For each activity, list the data to be recorded.
 ## Data Currency
 Data currency is a measure of how recent data are.  This section answers the question, “When the application responds to a request for data how current must those data be?”  Answer that question for each type of data request.
 ## Reliability
