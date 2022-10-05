@@ -36,7 +36,7 @@ Currently they have no other way to check if the sign is on or off than to go to
 Assumptions are future situations, beyond the control of the project, whose outcomes influence the success of a project.  Constraints are limitations on the project that are beyond the control of the project team.  The following assumptions and constraints apply to this project:
 
 Assumptions: 
-- Availability of the Hardware
+- Availability of the hardware
 - Developments in future technologies
   
 Constraints:
@@ -70,7 +70,10 @@ Both sides of Manufacturer and User ( Shop owner ) will have a user interface to
 
 But for testing, we will need to simulate the backend and the user interface.
 The user interface will be sumilatated by sending messages to the board without interface.( Console commands ) 
-<img src="./Images/diagram.png" alt="Data Requirements" align="center"/>
+<p align="center"> 
+  <img src="./Images/diagram.png" alt="Data Requirements" align="center"/>
+</p>
+
 
 
 # 3 / OPERATIONAL REQUIREMENTS
