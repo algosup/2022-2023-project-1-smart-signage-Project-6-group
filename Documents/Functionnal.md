@@ -154,11 +154,11 @@ The following table shows the traceability of the requirements to the functional
 **Age:** 45
 
 **Use case** 
-Franck might want to know if the sign is currently working, or if it is broken. So he could know which sign is on or off.
+Pierre might want to know if the sign is currently working, or if it is broken. So he could know which sign is on or off.
 
 ## 5.2 / Technician
 
-**Name:** Jean Dupont
+**Name:** Jean Dupond
 
 **Job Title:** Sign Technician
 
