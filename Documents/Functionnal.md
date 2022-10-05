@@ -52,11 +52,13 @@ We are also in charge of sending back anwser to the back end.
 ## 1.2 / Points of Contact
 Here is the list of the principals points of contact for this project:
 
-ALGOSUP - Project Manager - Aurélien Fernandez
-ALGOSUP - Technical Lead - Paul Maris
-ALGOSUP - Program Manager - Guillaume Rivière
+Entity | Rank | Name
+----------|------------- | -------------
+ALGOSUP | Project Manager | Aurélien Fernandez
+ALGOSUP | Technical Lead | Paul Maris
+ALGOSUP | Program Manager | Guillaume Rivière
+SignAll | Client | Franck Jeannin
 
-SignAll - Client - Franck Jeannin
 # 2 / FUNCTIONAL REQUIREMENTS
 
 ## 2.1 / Data Requirements
@@ -69,7 +71,7 @@ The system must be able to send a message to the backend to tell if the sign is 
 Both sides of Manufacturer and User ( Shop owner ) will have a user interface to control the sign. **( Out of our scope)**
 
 But for testing, we will need to simulate the backend and the user interface.
-The user interface will be sumilatated by sending messages to the board without interface.( Console commands ) 
+The user interface will be simulated by sending messages to the board without interface.( Console commands ) 
 <p align="center"> 
   <img src="./Images/diagram.png" alt="Data Requirements" align="center"/>
 </p>
