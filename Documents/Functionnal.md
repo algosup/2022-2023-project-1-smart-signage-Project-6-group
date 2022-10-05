@@ -127,16 +127,16 @@ The following table shows the traceability of the requirements to the functional
 
 | Requirement | Functional | Non-Functional |
 |----------|-------------| ------------|
-| Turn On/Off | [2.1](#21--data-requirements) | [3.1](#31--security) |
-| Adjust the brightness | [2.1](#21--data-requirements) | [3.1](#31--security) |
-| See Sign information | [2.1](#21--data-requirements) | [3.1](#31--security) |
-| Access baterie informations | [2.1](#21--data-requirements) | [3.1](#31--security) |
-| Lock instructions | [2.1](#21--data-requirements) | [3.1](#31--security) |
-| Override instructions | [2.1](#21--data-requirements) | [3.1](#31--security) |
-| Send data to backend | [2.1](#21--data-requirements) | [3.1](#31--security) |
-| Receive data from backend | [2.1](#21--data-requirements) | [3.1](#31--security) |
-| Send data to backend | [2.1](#21--data-requirements) | [3.1](#31--security) |
-| Receive data from backend | [2.1](#21--data-requirements) | [3.1](#31--security) |
+| Turn On/Off | [2.2](#22--functional-process-requirements) | [3.1](#31--security) |
+| Adjust the brightness | [2.2](#22--functional-process-requirements) | [3.1](#31--security) |
+| See Sign information | [2.2](#22--functional-process-requirements) | [3.1](#31--security) |
+| Access baterie informations | [2.2](#22--functional-process-requirements) | [3.1](#31--security) |
+| Lock instructions | [2.2](#22--functional-process-requirements) | [3.1](#31--security) |
+| Override instructions | [2.2](#22--functional-process-requirements) | [3.1](#31--security) |
+| Send data to backend | [2.2](#22--functional-process-requirements) | [3.1](#31--security) |
+| Receive data from backend | [2.2](#22--functional-process-requirements) | [3.1](#31--security) |
+| Send data to backend | [2.2](#22--functional-process-requirements) | [3.1](#31--security) |
+| Receive data from backend | [2.2](#22--functional-process-requirements) | [3.1](#31--security) |
 | Data Retention |  | [3.5](#35--data-retention) |
 | Data Currency |  | [3.2](#32--data-currency) |
 | System Availability |  | [3.3](#33--system-availability) |
