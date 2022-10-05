@@ -17,7 +17,11 @@
   - [3.4 / Performance](#34--performance)
   - [3.5 / Data Retention](#35--data-retention)
 - [4 / REQUIREMENTS TRACE ABILITY MATRIX](#4--requirements-trace-ability-matrix)
-- [5 / GLOSSARY](#5--glossary)
+- [5 / Personaes](#5--personaes)
+  - [5.1 / Manufacturer](#51--manufacturer)
+  - [5.2 / Technician](#52--technician)
+  - [5.3 / Shop Owner](#53--shop-owner)
+- [6 / GLOSSARY](#6--glossary)
 
 
 
@@ -139,8 +143,45 @@ The following table shows the traceability of the requirements to the functional
 | Performance |  | [3.4](#34--performance) |
 | Security |  | [3.1](#31--security) |
 
+# 5 / Personaes
 
-# 5 / GLOSSARY
+## 5.1 / Manufacturer
+
+**Name:** Pierre Dupont
+
+**Job Title:** CEO
+
+**Age:** 45
+
+**Use case** 
+Franck might want to know if the sign is currently working, or if it is broken. So he could know which sign is on or off.
+
+## 5.2 / Technician
+
+**Name:** Jean Dupont
+
+**Job Title:** Sign Technician
+
+**Age:** 35
+
+**Use case**
+Jean might want to know if the sign is currently working, or if it is broken. So he could know which sign is on or off and know wich one to repair.
+He could also need to turn on of off the sign for maintenance or installation.
+
+
+## 5.3 / Shop Owner
+
+**Name:** Patrik Balecanie
+
+**Job Title:** Shop Owner
+
+**Age:** 38
+
+**Use case**
+Patrik might want to turn on the sign on open, and turn it off on close. He might also want to adjust the brightness of the sign depending on the outside brightness.
+
+
+# 6 / GLOSSARY
 Here is the list of the terms used in this document:
 
 Term | Definition
