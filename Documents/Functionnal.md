@@ -29,7 +29,7 @@ The company Signall is looking for a prototype to make their electric sign smart
 So they contacted ALGOSUP in order to have a proof of concept or a prototype.
 ### 1.1.2 / Purpose
 The purpose of this project is to be able to turn on and off the sign remotely. 
-Being able to turn it On and Off will also resulte in the respect of ecological issues.
+Being able to turn it On and Off will also result in the respect of ecological issues.
 Signall also needs a way to know if the sign is on or off in order to know if the signage is not broken.
 Currently they have no other way to check if the sign is on or off than to go to the sign and check it.
 ### 1.1.3 / Assumptions and Constraints
@@ -70,7 +70,7 @@ Both sides of Manufacturer and User ( Shop owner ) will have a user interface to
 
 But for testing, we will need to simulate the backend and the user interface.
 The user interface will be sumilatated by sending messages to the board without interface.( Console commands ) 
-<img src="./Images/diagram.png" alt="Data Requirements"/>
+<img src="./Images/diagram.png" alt="Data Requirements" align="center"/>
 
 
 # 3 / OPERATIONAL REQUIREMENTS
