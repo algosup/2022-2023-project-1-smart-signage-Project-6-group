@@ -23,9 +23,9 @@
   - [4.5 / Lock instructions](#45--lock-instructions)
 - [5 / REQUIREMENTS TRACE ABILITY MATRIX](#5--requirements-trace-ability-matrix)
 - [6 / Personaes](#6--personaes)
-  - [5.1 / Manufacturer](#51--manufacturer)
-  - [5.2 / Technician](#52--technician)
-  - [5.3 / Shop Owner](#53--shop-owner)
+  - [6.1 / Manufacturer](#61--manufacturer)
+  - [6.2 / Technician](#62--technician)
+  - [6.3 / Shop Owner](#63--shop-owner)
 - [7 / GLOSSARY](#7--glossary)
 
 # 1 / GENERAL
@@ -33,6 +33,7 @@
 ## 1.1 / Project Description
 
 This project is made to make all signage from the company Signall smart.
+This device need to adapt to existing sign and be compatible with new signs.
 
 ### 1.1.1 / Background
 
@@ -164,7 +165,7 @@ It will also check every 15 minutes if the sign have to execute a command or not
 
 To have a reactive sign, we need the software to be awake and ready at any time.
 The queries will be send every 15 minutes.
-That result of the hardwake to be awake at any time to be ready to execute commands.
+That result of the hardware to be awake at any time to be ready to execute commands.
 
 ## 3.5 / Data Retention
 
@@ -189,6 +190,7 @@ Data will be transmitted to the server every 15 hours.
 Data will be transmited every 3 hours to the server.
 
 The the communication process we are going to use the LoRaWAN protocol.
+LoraWAN is a protocol based on radio frequencies.
 LoraWAN is a low power wide area network protocol designed to allow long range communication at low bit rates.
 It's designed to not use a lot of energy and to be able to communicate over a long distance, long distance is about 100 Km.
 
@@ -263,7 +265,7 @@ The following table shows the traceability of the requirements to the functional
 
 # 6 / Personaes
 
-## 5.1 / Manufacturer
+## 6.1 / Manufacturer
 
 **Name:** Pierre Dupont
 
@@ -276,7 +278,7 @@ The following table shows the traceability of the requirements to the functional
 **Use case**
 Pierre might want to know which signs are currently working in France.
 
-## 5.2 / Technician
+## 6.2 / Technician
 
 **Name:** Jean Dupond
 
@@ -308,7 +310,7 @@ He also need to know which sign is having issue to he can repair it as soon as p
 He doesn't want to go to a sign that have no problems.
 He could also need to turn on of off the sign for maintenance or installation.
 
-## 5.3 / Shop Owner
+## 6.3 / Shop Owner
 
 **Name:** Patrik Balecanie
 
@@ -351,3 +353,9 @@ Sign | The LED sign
 Backend | The server that we receive and send messages to
 User Interface | The interface that the user will use to control the sign
 User | The person who will use the interface to control the sign
+Network | The network that will be used to send and receive messages
+Queries | The requests sent to the server
+LoraWAN | The network protocol used to send and receive messages
+Bites | The unit of information
+bites rate | The number of bits that can be sent per second
+
