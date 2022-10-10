@@ -269,10 +269,12 @@ The following table shows the traceability of the requirements to the functional
 
 **Job Title:** CEO
 
-**Age:** 45
+**Live:** Paris, France
+
+**Work:** Paris, France
 
 **Use case**
-Pierre might want to know if the sign is currently working, or if it is broken. So he could know which sign is on or off.
+Pierre might want to know which signs are currently working in France.
 
 ## 5.2 / Technician
 
@@ -280,10 +282,30 @@ Pierre might want to know if the sign is currently working, or if it is broken. 
 
 **Job Title:** Sign Technician
 
-**Age:** 35
+**Live:** Paris, France
+
+**Work:** Everywhere, France
 
 **Use case**
-Jean might want to know if the sign is currently working, or if it is broken. So he could know which sign is on or off and know wich one to repair.
+Jean need to know which sign isn't currently working in France.
+He also need to know which sign is having issue to he can repair it as soon as possible.
+He doesn't want to go to a sign that have no problems.
+He could also need to turn on of off the sign for maintenance or installation.
+
+------------------------------
+
+**Name:** Eric Francois
+
+**Job Title:** Sign Technician
+
+**Live:** Vierzon, France
+
+**Work:** Everywhere, France
+
+**Use case**
+Jean need to know which sign isn't currently working in France.
+He also need to know which sign is having issue to he can repair it as soon as possible.
+He doesn't want to go to a sign that have no problems.
 He could also need to turn on of off the sign for maintenance or installation.
 
 ## 5.3 / Shop Owner
@@ -292,10 +314,30 @@ He could also need to turn on of off the sign for maintenance or installation.
 
 **Job Title:** Shop Owner
 
-**Age:** 38
+**Live:** Vierzon, France
+
+**Work:** Vierzon, France
 
 **Use case**
-Patrik might want to turn on the sign on open, and turn it off on close. He might also want to adjust the brightness of the sign depending on the outside brightness.
+Patrik doesn't like the feature of automatic light on/off.
+He prefer to turn it off manually when he close the shop. and on when he open it.
+He is an ecological adept and he'd like to be able to adjust the brightness of the sign to save energy.
+
+
+------------------------------
+
+**Name:** Jean Moretty
+
+**Job Title:** Shop Owner
+
+**Live:** Paris, France
+
+**Work:** Vierzon / Paris / Montpellier, France
+
+**Use case**
+Jean have 3 shop and can't be everywhere at the same time.
+Jean want a wait to check if the manager of each shop is doing his job with the sign. 
+And set automatic light on/off for each shop as they doesn't have the same closing hour.
 
 # 7 / GLOSSARY
 
