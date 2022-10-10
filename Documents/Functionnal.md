@@ -217,9 +217,29 @@ Adjusting means being able to control the brightness of the sign with 3 modes: L
 
 ## 4.3 / See Sign information
 
+This feature describe the facts that it will be possible to see the informations of the sign remotely.
+The informations are:
+
+- State of the sign ( On / Off )
+- Brightness of the sign ( Percentage )
+- Battery level ( If running on battery )
+- Sign temperature ( Check Overheating )
+- Failure ( If the sign is broken )
+
+
 ## 4.4 / Battery lifetime check
 
+**TBD with Client**
+
+This feature describe the facts that it will be possible to check the battery lifetime of the sign remotely.
+The battery lifetime will be check every 3 hours.
+This will help the manufacturer to know when to change the battery.
+
 ## 4.5 / Lock instructions
+
+For maintenance, the sign might need to be locked and unable to receive commands until the maintenance is done.
+This includes locking down the sign for a period of time for everyone except the repairman finish.
+
 
 # 5 / REQUIREMENTS TRACE ABILITY MATRIX
 
@@ -227,17 +247,16 @@ The following table shows the traceability of the requirements to the functional
 
 | Requirement | Functional | Non-Functional |
 |----------|-------------| ------------|
-| Turn On/Off | [2.2](#22--functional-process-requirements) | [3.1](#31--security) |
-| Adjust the brightness | [2.2](#22--functional-process-requirements) | [3.1](#31--security) |
-| See Sign information | [2.2](#22--functional-process-requirements) | [3.1](#31--security) |
-| Access baterie informations | [3.3](#33--energy-consumption) | [3.1](#31--security) |
-| Lock instructions | [2.2](#22--functional-process-requirements) | [3.1](#31--security) |
+| Turn On/Off | [4.1 / Turn On/Off](#41--turn-onoff) | [3.1](#31--security) |
+| Adjust the brightness | [4.2](#42--adjust-the-brightness)) | [3.1](#31--security) |
+| See Sign information | [4.3](#43--see-sign-information) | [3.1](#31--security) |
+| Access battery informations | [4.4](#44--battery-lifetime-check)) | [3.1](#31--security) |
+| Lock instructions | [4.5](#45--lock-instructions) | [3.1](#31--security) |
 | Send data to backend | [2.2](#22--functional-process-requirements) | [3.1](#31--security) |
 | Receive data from backend | [2.2](#22--functional-process-requirements) | [3.1](#31--security) |
 | Send data to backend | [3.6](#36--data-transmission) | [3.1](#31--security) |
 | Receive data from backend | [3.6](#36--data-transmission) | [3.1](#31--security) |
 | Data Retention |  | [3.5](#35--data-retention) |
-| Data Currency |  | [3.2](#32--data-currency) |
 | System Availability |  | [3.3](#33--system-availability) |
 | Performance |  | [3.4](#34--performance) |
 | Security |  | [3.1](#31--security) |
