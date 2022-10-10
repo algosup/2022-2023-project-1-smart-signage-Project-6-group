@@ -141,7 +141,7 @@ Running on sector:
 - Battery doesn't need maintenance
 - Doesn't work in the case of electric shortage
 - Latency of 15 mins in informations of the sign
-- Latency of a few minutes the sended commands ( Depending on the network usage at this time)
+- Latency of a few minutes of the sended commands ( Depending on the network usage at this time)
 - Can add features as needed
 
 ------------------------------
