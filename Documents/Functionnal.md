@@ -183,13 +183,13 @@ After sending its data, it will be deleted.
 
 **TBD with Client**
 
-Data will be transmitted to the server every 15 hours.
+Data will be transmitted to the server every 15 minutes.
 
 ------------------------------
 
 Data will be transmited every 3 hours to the server.
 
-The the communication process we are going to use the LoRaWAN protocol.
+The communication process we are going to use is the LoRaWAN protocol.
 LoraWAN is a protocol based on radio frequencies.
 LoraWAN is a low power wide area network protocol designed to allow long range communication at low bit rates.
 It's designed to not use a lot of energy and to be able to communicate over a long distance, long distance is about 100 Km.
@@ -224,7 +224,7 @@ The informations are:
 
 - State of the sign ( On / Off )
 - Brightness of the sign ( Percentage )
-- Battery level ( If running on battery )
+- Battery level ( Percentage )
 - Sign temperature ( Check Overheating )
 - Failure ( If the sign is broken )
 
@@ -250,7 +250,7 @@ The following table shows the traceability of the requirements to the functional
 | Requirement | Functional | Non-Functional |
 |----------|-------------| ------------|
 | Turn On/Off | [4.1 / Turn On/Off](#41--turn-onoff) | [3.1](#31--security) |
-| Adjust the brightness | [4.2](#42--adjust-the-brightness)) | [3.1](#31--security) |
+| Adjust the brightness | [4.2](#42--adjust-the-brightness) | [3.1](#31--security) |
 | See Sign information | [4.3](#43--see-sign-information) | [3.1](#31--security) |
 | Access battery informations | [4.4](#44--battery-lifetime-check)) | [3.1](#31--security) |
 | Lock instructions | [4.5](#45--lock-instructions) | [3.1](#31--security) |
@@ -305,7 +305,7 @@ He could also need to turn on of off the sign for maintenance or installation.
 **Work:** Everywhere, France
 
 **Use case**
-Jean need to know which sign isn't currently working in France.
+Eric need to know which sign isn't currently working in France.
 He also need to know which sign is having issue to he can repair it as soon as possible.
 He doesn't want to go to a sign that have no problems.
 He could also need to turn on of off the sign for maintenance or installation.
@@ -322,7 +322,7 @@ He could also need to turn on of off the sign for maintenance or installation.
 
 **Use case**
 Patrik doesn't like the feature of automatic light on/off.
-He prefer to turn it off manually when he close the shop. and on when he open it.
+He prefer to turn it off manually when he close the shop and on when he open it.
 He is an ecological adept and he'd like to be able to adjust the brightness of the sign to save energy.
 
 
