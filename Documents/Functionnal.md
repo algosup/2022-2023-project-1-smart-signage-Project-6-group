@@ -119,7 +119,7 @@ The application will answer the user demands and idle most of the time.
 
 **TBD With Client**
 
-3 solutions come to us:
+2 solutions come to us:
 
 - Run on battery
 - Run on sector
