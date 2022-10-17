@@ -119,11 +119,10 @@ The application will answer the user demands and idle most of the time.
 
 **TBD With Client**
 
-3 solutions come to us:
+2 solutions come to us:
 
 - Run on battery
 - Run on sector
-- Run on battery only when necessary
 
 ------------------------------
 Running on battery:
@@ -143,15 +142,7 @@ Running on sector:
 - Latency of 15 mins in informations of the sign
 - Latency of a few minutes of the sended commands ( Depending on the network usage at this time)
 - Can add features as needed
-
-------------------------------
-Running on battery only when ncessary:
-
-- Battery need maintenance only in the case of a failure
-- Can run in the case of an electric shortage
-- Need more development
-- Need more components
-- Latency depends on the current mode and the network usage
+- No need to check battery levels
 
 ## 3.4 / Performance
 
@@ -228,7 +219,6 @@ The informations are:
 - Sign temperature ( Check Overheating )
 - Failure ( If the sign is broken )
 
-
 ## 4.4 / Battery lifetime check
 
 **TBD with Client**
@@ -242,7 +232,6 @@ This will help the manufacturer to know when to change the battery.
 For maintenance, the sign might need to be locked and unable to receive commands until the maintenance is done.
 This includes locking down the sign for a period of time for everyone except the repairman finish.
 
-
 # 5 / REQUIREMENTS TRACE ABILITY MATRIX
 
 The following table shows the traceability of the requirements to the functional and non-functional requirements.
@@ -252,14 +241,12 @@ The following table shows the traceability of the requirements to the functional
 | Turn On/Off | [4.1 / Turn On/Off](#41--turn-onoff) | [3.1](#31--security) |
 | Adjust the brightness | [4.2](#42--adjust-the-brightness) | [3.1](#31--security) |
 | See Sign information | [4.3](#43--see-sign-information) | [3.1](#31--security) |
-| Access battery informations | [4.4](#44--battery-lifetime-check)) | [3.1](#31--security) |
+| Access battery informations | [4.4](#44--battery-lifetime-check) | [3.1](#31--security) |
 | Lock instructions | [4.5](#45--lock-instructions) | [3.1](#31--security) |
-| Send data to backend | [2.2](#22--functional-process-requirements) | [3.1](#31--security) |
-| Receive data from backend | [2.2](#22--functional-process-requirements) | [3.1](#31--security) |
 | Send data to backend | [3.6](#36--data-transmission) | [3.1](#31--security) |
 | Receive data from backend | [3.6](#36--data-transmission) | [3.1](#31--security) |
 | Data Retention |  | [3.5](#35--data-retention) |
-| System Availability |  | [3.3](#33--system-availability) |
+| System Availability |  | [3.2](#32--system-availability) |
 | Performance |  | [3.4](#34--performance) |
 | Security |  | [3.1](#31--security) |
 
@@ -325,7 +312,6 @@ Patrik doesn't like the feature of automatic light on/off.
 He prefer to turn it off manually when he close the shop and on when he open it.
 He is an ecological adept and he'd like to be able to adjust the brightness of the sign to save energy.
 
-
 ------------------------------
 
 **Name:** Jean Moretty
@@ -338,7 +324,7 @@ He is an ecological adept and he'd like to be able to adjust the brightness of t
 
 **Use case**
 Jean have 3 shop and can't be everywhere at the same time.
-Jean want a wait to check if the manager of each shop is doing his job with the sign. 
+Jean want a wait to check if the manager of each shop is doing his job with the sign.
 And set automatic light on/off for each shop as they doesn't have the same closing hour.
 
 # 7 / GLOSSARY
@@ -356,6 +342,5 @@ User | The person who will use the interface to control the sign
 Network | The network that will be used to send and receive messages
 Queries | The requests sent to the server
 LoraWAN | The network protocol used to send and receive messages
-Bites | The unit of information
-bites rate | The number of bits that can be sent per second
-
+Bytes | The unit of information
+Bytes rate | The number of bits that can be sent per second
