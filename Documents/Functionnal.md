@@ -241,7 +241,7 @@ The following table shows the traceability of the requirements to the functional
 | Turn On/Off | [4.1 / Turn On/Off](#41--turn-onoff) | [3.1](#31--security) |
 | Adjust the brightness | [4.2](#42--adjust-the-brightness) | [3.1](#31--security) |
 | See Sign information | [4.3](#43--see-sign-information) | [3.1](#31--security) |
-| Access battery informations | [4.4](#44--battery-lifetime-check)) | [3.1](#31--security) |
+| Access battery informations | [4.4](#44--battery-lifetime-check) | [3.1](#31--security) |
 | Lock instructions | [4.5](#45--lock-instructions) | [3.1](#31--security) |
 | Send data to backend | [3.6](#36--data-transmission) | [3.1](#31--security) |
 | Receive data from backend | [3.6](#36--data-transmission) | [3.1](#31--security) |
