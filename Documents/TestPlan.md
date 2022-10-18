@@ -1,6 +1,6 @@
 | N° | ACTION            | NUMBER OF STEPS | STEPS DESCRIPTION | EXPECTATION | RESULT | WHAT’S THE PROBLEM |
 | -- | ----------------- | --------------- | ----------------- | ----------- | ------ | ------------------ |
-| 1 | Turn on the board | 1 | 1.Plug the board | The board turn on |  |  |
+| 1 | Turn on the board | 1 | 1.Plug the board | The board turn on | the electric current passes through the board then the board turns on | no problem to turn on the board |
 
 | N° | ACTION            | NUMBER OF STEPS | STEPS DESCRIPTION | EXPECTATION | RESULT | WHAT’S THE PROBLEM |
 | -- | ----------------- | --------------- | ----------------- | ----------- | ------ | ------------------ |
