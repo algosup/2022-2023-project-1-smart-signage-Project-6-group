@@ -1,6 +1,6 @@
  <center> <h1> AppSolu </h1> </center>
 
-<strong>Prepared by :</strong>
+<strong>Written by :</strong>
 <br><strong>Lucas Aubard</strong></br>
 
 | N° | ACTION            | NUMBER OF STEPS | STEPS DESCRIPTION | EXPECTATION | RESULT | WHAT’S THE PROBLEM |
