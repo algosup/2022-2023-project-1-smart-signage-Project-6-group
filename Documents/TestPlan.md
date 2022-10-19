@@ -12,9 +12,16 @@
 
 | N° | ACTION            | NUMBER OF STEPS | STEPS DESCRIPTION | EXPECTATION | RESULT | WHAT’S THE PROBLEM |
 | -- | ----------------- | --------------- | ----------------- | ----------- | ------ | ------------------ |
+<<<<<<< HEAD
 | 1 | Turn off the board | 1 | 1.Unplug the board | The board turn off | the board turns off correctly | no problem to turn off the board |
 
 #### <ins>Turn the led on :</ins>
+=======
+| 1 | Turn off the board | 2 | 1.Go to the terminal 2.Write"xxxx"+"off" | The board turn on |  |  |
+|2|Turn off the board|2|1.Go to the terminal 2.Write"xxxx"+"number"|The board don't crash|||
+|3|Turn off the board|2|1.Go to the terminal 2.Write"xxxx"+"string"|The board don't crash|||
+|4|Turn off the board|2|1.Go to the terminal 2.Write"xxxx"+"_"|The board don't crash|||
+>>>>>>> b337ab5619d58bc7b82abbcd99b4112db121ecc5
 
 | N° | ACTION            | NUMBER OF STEPS | STEPS DESCRIPTION | EXPECTATION | RESULT | WHAT’S THE PROBLEM |
 | -- | ----------------- | --------------- | ----------------- | ----------- | ------ | ------------------ |
@@ -36,6 +43,7 @@
 
 | N° | ACTION            | NUMBER OF STEPS | STEPS DESCRIPTION | EXPECTATION | RESULT | WHAT’S THE PROBLEM |
 | -- | ----------------- | --------------- | ----------------- | ----------- | ------ | ------------------ |
+<<<<<<< HEAD
 | 1 | change the brightness of the led | 2 | 1.Go to the terminal 2.Write"xxxx"+"100%" | the brightness is 100% |  |  |
 |2|change the brightness of the led|2|1.Go to the terminal 2.Write"xxxx"+"60%"|the brightness is 60%|||
 |3|change the brightness of the led|2|1.Go to the terminal 2.Write"xxxx"+"40%"|the brightness is 40%|||
@@ -45,6 +53,15 @@
 | 7 | change the brightness of the led | 2 | 1.Go to the terminal 2.Write"xxxx"+"_" | the brightness don't change and the board don't crash |  |  |
 
 #### <ins>Check battery level :</ins>
+=======
+| 1 | Change led's brightness | 2 | 1.Go to the terminal 2.Write"xxxx"+"100%" | the brightness is 100% |  |  |
+|2|Change led's brightness|2|1.Go to the terminal 2.Write"xxxx"+"60%"|the brightness is 60%|||
+|3|Change led's brightness|2|1.Go to the terminal 2.Write"xxxx"+"40%"|the brightness is 40%|||
+|4|Change led's brightness|2|1.Go to the terminal 2.Write"xxxx"+"0%"|the brightness is 0%|||
+|5|Change led's brightness|2|1.Go to the terminal 2.Write"xxxx"+"-100%"|the brightness is 0% and the board don't crash|||
+| 6 | Change led's brightness | 2 | 1.Go to the terminal 2.Write"xxxx"+"string" | the brightness don't change and the board don't crash |  |  |
+| 7 | Change led's brightness | 2 | 1.Go to the terminal 2.Write"xxxx"+"_" | the brightness don't change and the board don't crash |  |  |
+>>>>>>> b337ab5619d58bc7b82abbcd99b4112db121ecc5
 
 | N° | ACTION            | NUMBER OF STEPS | STEPS DESCRIPTION | EXPECTATION | RESULT | WHAT’S THE PROBLEM |
 | -- | ----------------- | --------------- | ----------------- | ----------- | ------ | ------------------ |
