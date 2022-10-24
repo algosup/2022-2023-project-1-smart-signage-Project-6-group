@@ -117,7 +117,6 @@ The application will answer the user demands and idle most of the time.
 
 ## 3.3 / Energy consumption
 
-**TBD With Client**
 
 2 solutions come to us:
 
@@ -144,23 +143,22 @@ Running on sector:
 - Can add features as needed
 - No need to check battery levels
 
+
+We decided with the client to go with battery because it is more reliable and can be used in case of electric shortage.
+
+
 ## 3.4 / Performance
 
-**TBD with Client Depending on the Battery Section**
 
-For saving energy consumption, the queries will be send every 3 hours.
+For saving energy consumption, the queries will be send every 12 hours.
 That result in the lowest performance possible with as much recent informations as possible.
 It will also check every 15 minutes if the sign have to execute a command or not.
 
-------------------------------
-
-To have a reactive sign, we need the software to be awake and ready at any time.
-The queries will be send every 15 minutes.
-That result of the hardware to be awake at any time to be ready to execute commands.
 
 ## 3.5 / Data Retention
 
-**TBD with Client**
+
+2 choice comes to us:
 
 No data will be stored in the application as we don't need to store data, we only need to send and receive data.
 The data send will be retreived by the sensors, sended, and deleted instantly.
@@ -170,15 +168,15 @@ The data send will be retreived by the sensors, sended, and deleted instantly.
 The hardware will store data every 15 minutes for a period of 3 hours before sending everythings to the server.
 After sending its data, it will be deleted.
 
+
+We decided with the client to go with the second solution as it will be more reliable and will allow us to have more informations on the sign.
+The client want statistics over time and this solution will allow us to have them and have it running on battery.
+
 ## 3.6 / Data transmission
 
-**TBD with Client**
 
-Data will be transmitted to the server every 15 minutes.
 
-------------------------------
-
-Data will be transmited every 3 hours to the server.
+Data will be transmited every 12 hours to the server.
 
 The communication process we are going to use is the LoRaWAN protocol.
 LoraWAN is a protocol based on radio frequencies.
@@ -193,13 +191,6 @@ This feature describe the facts that it will be possible to turn on or off the s
 Taking in consederation that you could be near the sign or not, you will be able to turn it on or off.
 
 ## 4.2 / Adjust the brightness
-
-**TBD with Client**
-
-This feature describe the facts that it will be possible to adjust the brightness of the sign remotely.
-Adjusting means being able to control the brightness of the sign in percentage.
-
-------------------------------
 
 This feature describe the facts that it will be possible to adjust the brightness of the sign remotely.
 Adjusting means being able to control the brightness of the sign with 3 modes: Low, Medium, High.
@@ -221,7 +212,6 @@ The informations are:
 
 ## 4.4 / Battery lifetime check
 
-**TBD with Client**
 
 This feature describe the facts that it will be possible to check the battery lifetime of the sign remotely.
 The battery lifetime will be check every 3 hours.
