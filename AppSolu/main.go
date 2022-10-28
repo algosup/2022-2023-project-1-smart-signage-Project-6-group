@@ -11,11 +11,11 @@ func main() {
 
 	println("start")
 
-	ATWrite(lora, "AT+JOIN")
+	ATWrite(lora, "JOIN")
 
 	time.Sleep(time.Second * 10)
 
-	//ATWrite(lora, `AT+MSG="ALGOSUP"`)
+	//ATWrite(lora, `MSG="ALGOSUP"`)
 
 	time.Sleep(time.Second * 10)
 

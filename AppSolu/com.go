@@ -23,10 +23,10 @@ func InitLoRa() machine.UART {
 }
 
 func ATWrite(device machine.UART, cmd string) {
-	device.Write([]byte(cmd + "\r\n"))
+	device.Write([]byte("AT+" + cmd + "\r\n"))
 }
 
-func ReadBuffer(device machine.UART, debugOn machine.UART) string {
+func ReadBuffer(device machine.UART) string {
 	var out string
 	for device.Buffered() > 0 {
 		b, _ := device.ReadByte()
